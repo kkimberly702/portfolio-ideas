@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-ideas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d portfolio-ideas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkimberly702/portfolio-ideas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkimberly702/portfolio-ideas/issues"
+  },
+  "homepage": "https://github.com/kkimberly702/portfolio-ideas/",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
