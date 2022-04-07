@@ -1,9 +1,14 @@
+@media screen and (min-width: 992px) {
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
+   
+ 
 
 body {
     background: linear-gradient(-45deg, #100B2B, #262435, #4b4668, #141221);
@@ -34,6 +39,7 @@ body {
 }
 
 .img-section {
+    display: flex;
     border-radius: 25px;
     margin-left: 7rem;
     margin-top: 5rem;
@@ -42,23 +48,24 @@ body {
 }
 
 .about-me {
-    
     color: whitesmoke;
     font-size: 18px;
     margin-left: 2rem;
     margin-top: 7rem;
+    color: peachpuff;
 
 }
 
 .socials {
-    margin-left: 2rem;
-    margin-top: 5rem;
+    /* margin-left: 2rem;
+    margin-top: 5rem; */
     
 }
 
 .projects {
-    margin: 10rem;
-    color: snow;
+    display: flex;
+    margin: 1rem;
+    color: peachpuff
 }
 
 
@@ -79,12 +86,7 @@ a:link {
     color: black;
   }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 
-}
 
 
 /* Stars Styling  */
@@ -182,4 +184,61 @@ span:nth-child(5) {
     left: initial;
     animation-delay: 0.8s;
     animation-duration: 2.5s;
+}
+
+}
+
+/* PHONE */
+@media screen and (max-width: 576px) {
+
+    body {
+        background-color: #262435 !important;
+    
+    }
+
+    img {
+        border-radius: 25px;
+    }
+
+    .container {
+        display: inline-flex;
+        margin: 3rem;
+    }
+    .about-me{
+        margin-left: 1rem;
+        color: peachpuff;
+    }
+
+  .projects {
+      color: peachpuff;
+  }
+
+}
+
+
+
+ /* TABLET */
+ @media screen and (max-width: 768px) {
+    body {
+        background-color: #262435 !important;
+    }
+    
+    .container {
+        display: inline-flex;
+        margin: 4rem;
+    }
+    .about-me {
+        margin: 3rem;
+        color: peachpuff;
+    }
+
+    img {
+        border-radius: 25px;
+    }
+
+    .projects {
+        color: peachpuff;
+        margin: 3rem;
+    }
+
 }
